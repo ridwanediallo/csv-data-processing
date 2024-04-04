@@ -8,7 +8,6 @@ csvToJson(csvFilePath, (err, jsonData) => {
     return;
   }
 
-  // Example validation
   jsonData.forEach((row) => {
     const date_de_valeur = row.date_de_valeur;
     const moisComptable = row.mois_comptable;
