@@ -17,7 +17,7 @@ csvToJson(csvFilePath, (err, jsonData) => {
     const monthInValueDate = parseInt(date_de_valeur.substring(3, 5));
     const yearInValueDate = parseInt(date_de_valeur.substring(6));
 
-    // Extract month and year from mois_comptable
+    // Extract month from mois_comptable and year from annee_comptable
     const month = parseInt(moisComptable.substring(1));
     const year = parseInt(anneeComptable.substring(2));
 
